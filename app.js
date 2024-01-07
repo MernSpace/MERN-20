@@ -32,7 +32,7 @@ app.use(limiter);
 //Database connection
 
 let URL="mongodb+srv://<username>:<password>@cluster0.g7zuc4b.mongodb.net/ecom";
-let option={user:'sifat355y',pass:"sifat355y",autoIndex:true};
+let option={user:'',pass:"",autoIndex:true};
 mongoose.connect(URL,option).then((res)=>{
     console.log("Database Connected")
 }).catch((err)=>{
